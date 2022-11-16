@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <!------- NAVIGATION -------->
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><img id="logo1" src="img/logo.png" alt="logo"></a>
+  <a href="#news">DRIKKEVARER</a>
+  <a href="forretter.html">FORRETTER</a>
+  <div class="dropdown">
+    <button class="dropbtn">SUSHI
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Nigiri</a>
+      <a href="#">Uramaki</a>
+      <a href="#">Husomaki</a>
+      <a href="#">Futomaki</a>
+    </div>
+  </div> 
+  <a href="#about">TILBEHØR</a>
+  <a href="#about">KONCEPT</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!------- MAIN -------->
+
+<main class="main">
+    <img id="billede1" src="img/forretter.png" alt="sushibillede">
+    <h2 id="forretter">FORRETTER</h2>
+</main>
+
+   
+<section class="main_section">
+
+</section>
+
+<section class="main2">
+    <img id="imgTemp" src="img/tempurarejer.png" alt="Tempurarejer">
+    <p id="tempura">TEMPURA REJER</p>
+        <p id="tempuraTekst">Friturestegte store tigerrejer</p>
+        <img id="knap1" src="img/plusminus.png" alt="Knap">
+
+    <img id="imgTang" src="img/tangsalat.png" alt="Tangsalat">
+    <P id="tangsalat">TANGSALAT</P>
+    <img id="knap2" src="img/plusminus.png" alt="Knap">
+
+    <P id="miso">MISO SUPPE</P>
+        <p id="misoTekst">Med forårsløg, tang & sesam eller med rejer</p>
+    <img id="imgMiso" src="img/miso.png" alt="Miso suppe">
+    <img id="knap3" src="img/plusminus.png" alt="Knap">
+
+    <P id="foraars">FORÅRSRULLER</P>
+        <p id="foraarsTekst">Med grøntsager</p>
+    <img id="imgForaars" src="img/foraars.png" alt="Forårsruller">
+    <img id="knap4" src="img/plusminus.png" alt="Knap">
+
+</section>
+
+
+<!------- FOOTER -------->
+
+<footer>
+   <section class="footer_section">
+
+    </section>
+
+</footer>
+
+
+</body>
+</html>

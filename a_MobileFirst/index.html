@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <!------- NAVIGATION -------->
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active"><img id="logo1" src="img/logo.png" alt="logo"></a>
+  <a href="#news">DRIKKEVARER</a>
+  <a href="forretter.html">FORRETTER</a>
+  <div class="dropdown">
+    <button class="dropbtn">SUSHI
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Nigiri</a>
+      <a href="#">Uramaki</a>
+      <a href="#">Husomaki</a>
+      <a href="#">Futomaki</a>
+    </div>
+  </div> 
+  <a href="#about">TILBEHØR</a>
+  <a href="#about">KONCEPT</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!------- MAIN -------->
+
+<main class="main">
+   <h2 id="h2">SUSHI AD LIBITUM</h2>
+   <img id="billede1" src="img/billede1.png" alt="sushibillede">
+</main>
+
+   
+   <section class="main_section">
+      <img id="logo2" src="img/logo.png" alt="logo">
+      <img id="startknap" src="img/startknap2.png" alt="startknap">
+      <img id="baggrund" src="img/baggrundsushi.png" alt="baggrundsushi">
+   </section>
+
+
+<!------- FOOTER -------->
+
+<footer>
+   <section class="footer_section">
+      <h4>FØLG OS!</h4>
+      <a href="http://www.facebook.com"
+        ><img id="facebook" src="img/facebook.png" class="some_image" alt="facebook"
+      /></a>
+      <a href="http://www.instagram.com"
+        ><img id="instagram" src="img/instagram.png" class="some_image" alt="instagram"
+      /></a>
+     
+    </section>
+
+</footer>
+
+
+</body>
+</html>
